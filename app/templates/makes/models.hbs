@@ -1,0 +1,11 @@
+<button {{action 'deleteItem'}} class="pull-right">x</button>
+<h4>{{list-name name=model.name}}</h4>
+
+<ol>
+	{{#each model.models as |item|}}
+	{{item-li item=item models=model.models}}
+	{{/each}}
+</ol>
+
+<hr>
+{{add-item type='model' models=model.models}}

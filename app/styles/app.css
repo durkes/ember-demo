@@ -1,0 +1,9 @@
+.navbar-nav .active {
+	text-decoration: underline !important;
+}
+
+.nav-pills a {
+	margin-bottom: 0.4em !important;
+	padding: 0.4em !important;
+	border: 1px solid #ddd;
+}

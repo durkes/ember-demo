@@ -1,0 +1,5 @@
+{{#if isAdding}}
+	{{focus-input value=entry action='addDone' focus-out='addCancel'}}
+{{else}}
+	<button {{action 'addNew'}}>+ Add</button>
+{{/if}}

@@ -1,0 +1,7 @@
+{{#if isEditing}}
+	{{focus-input value=item action='editDone'}}
+	<button {{action 'editDone'}}>ok</button>
+	<button {{action 'deleteItem'}}>x</button>
+{{else}}
+	<span {{action 'editItem'}}>{{item}}</span>
+{{/if}}
