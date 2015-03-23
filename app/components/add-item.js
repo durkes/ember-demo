@@ -13,7 +13,7 @@ export default Ember.Component.extend({
 				models.pushObject(this.get('entry'));
 			}
 			else {
-				this.store.createRecord('list', {
+				this.store.createRecord('cars', {
 					name: this.get('entry'),
 					models: []
 				});
