@@ -40,7 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    baseURL: '/durkes/ember-demo/master/dist/'
   }
 
   return ENV;
